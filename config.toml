@@ -1,0 +1,24 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Data & The World"
+theme = "mainroad"
+paginate = "10"
+
+# currently not in use
+[Author]
+  name = "Gregory Janesch"
+  bio = "Early-career data scientist"
+
+[Params]
+  dateformat = "2006-01-02"
+  post_meta = ["date", "categories"]
+  copyright = "Gregory Janesch"
+
+[Params.sidebar]
+  home = "right"
+  single = false
+  widgets = ["social"]
+
+[Params.widgets.social]
+  linkedin="gregjanesch"
+  github="gjanesch"

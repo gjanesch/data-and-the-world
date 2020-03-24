@@ -1,0 +1,64 @@
+FUTURE POSTS & PROJECTS
+ - A more involved example of Metropolis-Hastings MCMC
+  * Logistic regression worked for ST502 project 2, probably want something similar.
+ - Run through of showing bias in least squares variable selection.
+  * From ST503 HW4, problem 7; also https://arxiv.org/pdf/1712.02379.pdf
+ - Visualization of Star Trek episode ratings from IMDB.
+  * Each series would...?
+ - Mapping thing using SeeClickFix
+ - Visualizing calorie contents and prices of snacks and fruits
+  * Need to collect data on prices from a grocery store
+  * Get as much nutritional info as I can from things in-store, but will probably need to use the Internet to find some of it.
+  * May want to see if the local paper would like it as well...
+  * Supposed to be practice for using D3.
+ - Something about pdftotext as a utility?
+ - Keywords in patent data
+ - Restore the IEEE article clustering code
+  * Try out more clustering algorithms (e.g., k-means, hierarchical, (H)DBSCAN).
+  * Want a way to quickly look at common keywords in the cluster.
+ - Consumer complaints data (https://opendata.fcc.gov/Consumer/CGB-Consumer-Complaints-Data/3xyp-aqkj)
+ - Recreate Bayesian Pokemon post, make it about visualizing the update process
+  * Make a point about how with a lot of data, you don't need to be Bayesian, but it still has some nice advantages.
+- Length of Wikipedia article on Coronavirus outbreak
+  * Need way to see when info is split off into subpages (if it is)
+  * Maybe look at other related pages (e.g., the one for the virus itself, not just the outbreak)?
+ - FFTs in Python
+  * If I can reverse engineer whatever it is at work...
+ - Something about the transience of popular topics in the news
+  * Requires dataset of articles from news sources
+ - Animate a visualization of historical data for the progress of various World Community Grid projects over the years
+  * Would be continuously scrolling, with data flowing right to left as it got older
+  * Unsure whether to make it a percentage of total usage (probably) or maybe a stacked chart, or create separate visualizations of the two
+ - Is there a way to look at text document changes using git?
+  * Would need a document that was edited many times in a variety of ways, not just having stuff added onto the end
+  * Would also need a way to visualize those changes
+ - Comparison of the amount of data sent when searching on Google vs DuckDuckGo or something.
+  * Maybe also do between browsers; would probably want work laptop for that, in order to get current versions of Google Chrome and Firefox (Chrome is available on Linux...)
+  * Need to be able to intercept outgoing packets; that one Python talk had some stuff along those lines
+  * Would be nice to be able to tell what kind of information is contained in those packets
+  * Would need to account for Google sending search suggestions to and fro, since that would make for a less fair comparison.
+ - Topics of Arxiv/Psyarxiv papers
+  * Personal interest in the latter...
+  * May be able to use this Arxiv scraper: https://github.com/Mahdisadjadi/arxivscraper
+  * Psyarxiv: https://psyarxiv.com/
+ - Differences in distributions of ratings
+  * Kullback-Leibler divergence or Kolmogorov–Smirnov test
+  * Maybe similar Amazon products or IMDB series?
+ - Something with https://opendata.guilfordcountync.gov
+  * The flyer from CFGSO said that they want to "elevate stories of people that use data to improve and help the communities they live, work, and play in" and to get in touch if you have an idea (crystal@stae.co).
+ - Overview of R's patchwork package
+  * Does some neat combining of figures in ggplot2.
+  * Maybe do it in the context of visualizing stock data?
+ - Edit history of PinePhone-related GitHub repositories
+ - Analyze microloan site data
+  * Regression or other statistical analyses would be good for demonstrating my abilities, and is appropriate considering I'm in 503 right now...
+  * Either Kiva or LendingClub had access to good data, it seemed.
+ - Example of lack of fit test, based on chapter 8 in ST503 textbook.
+  * Something like the cars dataset would be a good set to demonstrate on.
+ - Revival of old editrules post from original blog
+  * Best if it came in the context of other work, I think...
+ - Something about basic scraping with Python's newspaper library?
+ 
+OTHER THINGS TO BEAR IN MIND
+ - Try nodebox and rawgraphs for visualization assistance; the latter in particular keeps coming up on Data Stories, so it's probably got something to it. 
+ - Not sure how many popular science blogs/magazines/etc have statistics articles, but I bet they could use some.
