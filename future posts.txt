@@ -1,4 +1,10 @@
 FUTURE POSTS & PROJECTS
+ - Validate & errorlocate (successors to editrules)
+ - Visualizing resources that go into electric cars vs global mining
+  * Especially current rate of electric car purchases vs all U.S. cars
+  * Need amount of resources per car battery system.
+ - Do ARIMA models overfit to individual stocks?
+  * Reference post - https://towardsdatascience.com/stock-market-forecasting-using-time-series-c3d21f2dd37f
  - A more involved example of Metropolis-Hastings MCMC
   * Logistic regression worked for ST502 project 2, probably want something similar.
  - Run through of showing bias in least squares variable selection.
@@ -55,8 +61,6 @@ FUTURE POSTS & PROJECTS
   * Either Kiva or LendingClub had access to good data, it seemed.
  - Example of lack of fit test, based on chapter 8 in ST503 textbook.
   * Something like the cars dataset would be a good set to demonstrate on.
- - Revival of old editrules post from original blog
-  * Best if it came in the context of other work, I think...
  - Something about basic scraping with Python's newspaper library?
  
 OTHER THINGS TO BEAR IN MIND
