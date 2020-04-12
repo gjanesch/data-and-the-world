@@ -1,10 +1,10 @@
 ---
 title: An (Animated) Example of Bayesian Updating
 date: 2020-04-12
-linktitle: MST3K Episode vs Movie Scores
+linktitle: An (Animated) Example of Bayesian Updating
 categories: ["Analysis"]
 tags: ["Analysis", "Bayesian", "R"]
-draft: true
+draft: false
 description: Example and visualization of Bayesian updating.
 mathjax: true
 slug: bayesian-updating-example
