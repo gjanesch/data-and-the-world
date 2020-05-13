@@ -1,5 +1,8 @@
 FUTURE POSTS & PROJECTS
- - Validate & errorlocate (successors to editrules)
+ - 2D convolutional networks on stock data
+  * Get data for sector ETFs, maybe, then try to predict s&p change over the next month or something.
+  * Use tidyquant library to get stock data.
+ - R packages validate & errorlocate (successors to editrules)
  - Visualizing resources that go into electric cars vs global mining
   * Especially current rate of electric car purchases vs all U.S. cars
   * Need amount of resources per car battery system.
@@ -38,13 +41,14 @@ FUTURE POSTS & PROJECTS
  - Is there a way to look at text document changes using git?
   * Would need a document that was edited many times in a variety of ways, not just having stuff added onto the end
   * Would also need a way to visualize those changes
+  * Maybe look at similarity over time (i.e., similarity metric some number of commits into past and future).
  - Comparison of the amount of data sent when searching on Google vs DuckDuckGo or something.
   * Maybe also do between browsers; would probably want work laptop for that, in order to get current versions of Google Chrome and Firefox (Chrome is available on Linux...)
   * Need to be able to intercept outgoing packets; that one Python talk had some stuff along those lines
   * Would be nice to be able to tell what kind of information is contained in those packets
   * Would need to account for Google sending search suggestions to and fro, since that would make for a less fair comparison.
  - Topics of Arxiv/Psyarxiv papers
-  * Personal interest in the latter...
+  * Personal interest in the latter WRT depression
   * May be able to use this Arxiv scraper: https://github.com/Mahdisadjadi/arxivscraper
   * Psyarxiv: https://psyarxiv.com/
  - Differences in distributions of ratings
@@ -62,7 +66,57 @@ FUTURE POSTS & PROJECTS
  - Example of lack of fit test, based on chapter 8 in ST503 textbook.
   * Something like the cars dataset would be a good set to demonstrate on.
  - Something about basic scraping with Python's newspaper library?
+ - Description of how link functions in GLMs work/are derived.
+ - Something with GGally? (extension of ggplot2)
+ - Simulating a drive home (including stoplights) with Python's SimPy library
+  * Trying to figure out how much of an effect speed has on travel time.
+  * Tutorial post for Python's simpy library (may be useful) - https://realpython.com/simpy-simulating-with-python/
+ - Speed of code for jackknife method versus the bootstrap.
+ - Basic Shiny app displaying data from NOAA.
+  * They've got detailed hour-by-hour data in text form (e.g. https://forecast.weather.gov/MapClick.php?lat=36.0444&lon=-79.9421&lg=english&&FcstType=digital)
+  * Unsure how to access it via API yet.
+ - Basic stock report using rmarkdown to PDF.
+  * Maybe a good chance to bring in patchwork as well?
+ - See how normal non-normal distributions can look.
+  * Take samples from various non-normal distributions with various parameters, and try normality checking methods to see if they look normal.
+ - Something with Pearson chi-squared test and Benford's law
+  * Would prefer something with large numbers of easy-to-process numbers, e.g., accounting scandals.
+ - Something on the full set of pipes in R's magrittr package
+ - Comparing the proportion of rainy days or amount of precipitation over the weekend for various U.S. counties
+  * Could be good for a Bayesian surprise map, with the prior being the overall avg # of rainy days / amount of precipitation
+  * Probably where historical NOAA data comes in.
+ - Political alignments of companies based on FCC filings
+  * Lotta NLP
+  * Need to find that site again...
+ - Look at Spotify metric for billboard 100 over years
+  * Need to know what metrics Spotify assigns songs - I know there are ones like energy or valence that vary from 0 to 1
+  * Something involving the wrapped normal distribution for metrics that go from 0 to 1?
+ - Document clustering and extractive summaries of psychology papers (maybe with a focus on depression)
+  * Need that psyarxiv scraper...
+  * Also a lot of NLP...
+  * Needs cluster visualization method(s)
+ - Something on Yule processes
+ - Something about the fractured nature of Linux (or general OSS) contributions
+  * Would need data from Github or such about contribution history
+  * Would need data on several fairly different distros/projects (e.g., Ubuntu, Mint, ???)
+ - Actual effect of interaction terms in GLMs
+  * Need to find that blog post about how GLMs already have interaction stuff built in
+ - Ease of detecting when PDF files have additional files fused on
+  * Need to figure out how to do that...
+  * Would require a fairly similar set of papers to be successful - stuff scraped from Arxiv on a single topic, maybe?
+  * Not sure how meaningful this is - you'd need some way of knowing what the file size should be
+ - Some kind of prediction/portfolio analysis using Docker and/or Kubeflow
+  * Could probably get a couple posts out of it, covering both setting up the data side of it and other stuff
+  * Unsure of what to predict/compute with it -- maybe some sort of market monitoring like the Tensorflow CNN on the sector data?
+ - Similarity of Internet petitions for both the political left and right
+  * Need a dummy email account
+  * Probably need some additional security measures, which sounds paranoid, but just in case...
+  * Would want a model that tried to predict which side a document belongs to
+  * Would require some amount of named entity recognition to strip out specific names and see how that affects the clustering/prediction/whatever.
  
 OTHER THINGS TO BEAR IN MIND
  - Try nodebox and rawgraphs for visualization assistance; the latter in particular keeps coming up on Data Stories, so it's probably got something to it. 
  - Not sure how many popular science blogs/magazines/etc have statistics articles, but I bet they could use some.
+ - Alephdata
+ - SimdJSON - high speed JSON operations, has wrapper for R (https://simdjson.org/)
+ - QuantLib - open source library for quantitative finance, has Python & R bindings (https://www.quantlib.org/)
