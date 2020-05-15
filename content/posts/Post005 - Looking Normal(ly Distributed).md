@@ -1,6 +1,6 @@
 ---
 title: Looking Normal(ly Distributed)
-date: 2020-05-10
+date: 2020-05-13
 linktitle: Looking Normal(ly Distributed)
 categories: ["Experimentation"]
 tags: ["R", "Simulation"]
