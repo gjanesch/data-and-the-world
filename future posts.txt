@@ -28,7 +28,7 @@ FUTURE POSTS & PROJECTS
  - Consumer complaints data (https://opendata.fcc.gov/Consumer/CGB-Consumer-Complaints-Data/3xyp-aqkj)
  - Recreate Bayesian Pokemon post, make it about visualizing the update process
   * Make a point about how with a lot of data, you don't need to be Bayesian, but it still has some nice advantages.
-- Length of Wikipedia article on Coronavirus outbreak
+ - Length of Wikipedia article on Coronavirus outbreak
   * Need way to see when info is split off into subpages (if it is)
   * Maybe look at other related pages (e.g., the one for the virus itself, not just the outbreak)?
  - FFTs in Python
@@ -77,10 +77,9 @@ FUTURE POSTS & PROJECTS
   * Unsure how to access it via API yet.
  - Basic stock report using rmarkdown to PDF.
   * Maybe a good chance to bring in patchwork as well?
- - See how normal non-normal distributions can look.
-  * Take samples from various non-normal distributions with various parameters, and try normality checking methods to see if they look normal.
  - Something with Pearson chi-squared test and Benford's law
   * Would prefer something with large numbers of easy-to-process numbers, e.g., accounting scandals.
+  * Enron data set it at https://www.cs.cmu.edu/~./enron/, should contain plenty of numbers
  - Something on the full set of pipes in R's magrittr package
  - Comparing the proportion of rainy days or amount of precipitation over the weekend for various U.S. counties
   * Could be good for a Bayesian surprise map, with the prior being the overall avg # of rainy days / amount of precipitation
@@ -120,3 +119,4 @@ OTHER THINGS TO BEAR IN MIND
  - Alephdata
  - SimdJSON - high speed JSON operations, has wrapper for R (https://simdjson.org/)
  - QuantLib - open source library for quantitative finance, has Python & R bindings (https://www.quantlib.org/)
+ - CRAN Views - collections of packages on a theme (https://cran.r-project.org/web/views/)

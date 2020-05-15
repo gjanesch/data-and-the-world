@@ -33,6 +33,8 @@ For our experimentation, we'll employ the [Shapiro-Wilk test](https://en.wikiped
 
 The \\(p\\)-value will be our metric for how normal it looks.  We aren't going to focus on a threshold value for what looks normal "enough," we're just going to look at how the \\(p\\)-values broadly change based on the distributions' parameters.  To try to counteract the issue of fluctuations between runs, like with the \\(t\\)-distributed data above, we'll actually look at the median \\(p\\)-value from 15 separate tests.
 
+A note of caution:  The high power that comes with the large sample size means that the test is going to be quite zealous about rejecting the null if it detects any non-normality.  If you're dealing with smaller samples, Shapiro-Wilk is going to be more forgiving about minor deviations from the normal distribution, and the results of these simulations would change.  I would encourage you to download the code and see the effects of changing the sample size \\(N\\) if you want to get a better sense of this.
+
 ### The Beta Distribution
 
 A favorite for modeling the probability of something, the beta distribution's domain is confined to [0,1], and it's shape is described by two parameters, denoted here by \\(a\\) and \\(b\\).  Generally, the distribution looks fairly symmetric when both parameters are nearly equal, so we'd expect it to look more normal as they get close in value.
