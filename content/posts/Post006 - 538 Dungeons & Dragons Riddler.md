@@ -91,11 +91,11 @@ The expected value for a single fair die is just the average of the values on it
 For the extra credit, we need to find the probability of getting a value of at least \\(N\\) on a roll.  The single die is the easy case: Its values follow a discrete uniform distribution, so there's a 20/20 chance of rolling a 1 or better, 19/20 for at least 2, and so on until 1/20 for 20 or better (and it can't be better than that for a d20 die). The other two cases are only slightly harder, since we don't have a nice theoretical result (yet).  But we do have the probabilities of each event, courtesy of the 400-by-400 tables above.  We tabulate the results and divide by 160,000 to get probabilities for the individual die rolls, then take the appropriate cumulative sums:
 
 {{< highlight r >}}
-AoD_probs <- table(adv_of_disadv)/160000
-DoA_probs <- table(disadv_of_adv)/160000
+AOD_probs <- table(adv_of_disadv)/160000
+DOA_probs <- table(disadv_of_adv)/160000
 extra_credit <- data.frame(MinRoll = 1:20, OneDie = 20:1/20,
-                           AoD = rev(cumsum(rev(AoD_probs))),
-                           DoA = rev(cumsum(rev(DoA_probs))))
+                           AOD = rev(cumsum(rev(AOD_probs))),
+                           DOA = rev(cumsum(rev(DOA_probs))))
 {{< / highlight >}}
 
 | Min. Roll | One Die | AOD | DOA |
@@ -224,11 +224,11 @@ $$ F(x) = P(X \leq x) $$
 So to figure out the probability of getting a roll of \\(N\\) or better, we need to compute 1 minus the corresponding CDF at \\(x=N-1\\).  Since we have the CDFs for the AOD and DOA already:
 
 {{< highlight r >}}
-AoD_CDF <- function(x){(1600*x^2 - 80*x^3 + x^4)/400^2}
-DoA_CDF <- function(x){(800*x^2 - x^4)/400^2}
+AOD_CDF <- function(x){(1600*x^2 - 80*x^3 + x^4)/400^2}
+DOA_CDF <- function(x){(800*x^2 - x^4)/400^2}
 extra_credit2 <- data.frame(MinRoll = 1:20, OneDie = 20:1/20,
-                            AoD = sapply(1:20, function(x){1-AoD_CDF(x-1)}),
-                            DoA = sapply(1:20, function(x){1-DoA_CDF(x-1)}))
+                            AOD = sapply(1:20, function(x){1-AOD_CDF(x-1)}),
+                            DOA = sapply(1:20, function(x){1-DOA_CDF(x-1)}))
 {{< / highlight >}}
 
 
