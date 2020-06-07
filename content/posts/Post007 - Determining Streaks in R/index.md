@@ -12,6 +12,9 @@ slug: streaks-in-r
 
 Inspired by [this post](https://joshdevlin.com/blog/calculate-streaks-in-pandas/), which tries to calculate streaks in Python's `pandas` library, I thought I'd give it a try in R, since it's all just dataframe operations in the Python post.  I won't repeat his analysis, but I will replicate the streak determination and some of the plots.  The data he uses is [here](https://data.world/jaypeedevlin/2018-nba-playoff-shot-data).
 
+<!--more-->
+
+
 ## Determining Streaks
 
 As outlined in the above post, we first need a little dummy data to play with.  For reproducability's sake, I'm just using a fixed vector.
