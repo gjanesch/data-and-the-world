@@ -47,4 +47,4 @@ Of the 208 uses of Thunder, 145 of them hit, giving an accuracy of 69.7%, which 
 
 Note that while the weak prior's 99% credible interval includes the sample accuracy, and in fact the mean is pretty close to it.  The strong prior, on the other hand, is not quite there.  It would doubtless be dragged closer to the 70% mark as more samples came in, but as it is now, it makes a decent anecdote about what happens if your very strong prior ends up being unrealistic.
 
-The code used for this post is [here](post004_code.R).
+The code used for this post is [here](code.R).
