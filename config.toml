@@ -3,7 +3,8 @@ languageCode = "en-us"
 title = "Data & The World"
 theme = "mainroad"
 paginate = 10
-canonifyURLS = true
+canonifyURLs = true
+relativeURLs = false
 cleanDestinationDir = true
 
 # currently not in use

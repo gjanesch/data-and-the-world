@@ -1,5 +1,7 @@
 .directory
+.gitignore
 */.directory
 Unfinished Posts
 data sets.txt
 public
+*.Rhistory

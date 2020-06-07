@@ -136,7 +136,9 @@ Replicating the initial plot is pretty quick:
 
 First plotplot1.png
 
-{{< figure src="plot1.png" title="First plot" >}}
+{{ figure src="plot1.png" title="First plot" }}
+
+![First plot]({{< resource url="plot1.png" >}})
 
 Recreating one of the later ones requires additional work, but `ggplot2` has all of the necessary functionality on its own, so we don't need to bring in anything to extend it, it's just lengthy.  We also make the slight tweak to the `streak` variable so that the miss streaks go down under the x=0 axis.
 
