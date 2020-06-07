@@ -134,9 +134,7 @@ Replicating the initial plot is pretty quick:
 > ggplot(durant_ft, aes(x=1:nrow(durant_ft), y=streak)) + geom_bar(stat="identity")
 {{< / highlight >}}
 
-First plotplot1.png
-
-{{ figure src="plot1.png" title="First plot" }}
+First plotplot1.pn
 
 ![First plot]({{< resource url="plot1.png" >}})
 
