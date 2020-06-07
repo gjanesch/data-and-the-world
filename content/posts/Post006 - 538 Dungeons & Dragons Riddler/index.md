@@ -86,7 +86,7 @@ Something like this would obviously not work for more complicated rolls, as ther
 
 The expected value for a single fair die is just the average of the values on its faces, which works out here to be 10.5.  So the disadvantage of the advantage has the best expected value.  Looking at the probabilities graphically backs this up, as the bulk of the DOA probability seems to be at and above 11:
 
-![Probabilities for rolls under the three conditions.](p1_probability.png)
+![Probabilities for rolls under the three conditions.]({{< resource url="p1_probability.png" >}})
 
 For the extra credit, we need to find the probability of getting a value of at least \\(N\\) on a roll.  The single die is the easy case: Its values follow a discrete uniform distribution, so there's a 20/20 chance of rolling a 1 or better, 19/20 for at least 2, and so on until 1/20 for 20 or better (and it can't be better than that for a d20 die). The other two cases are only slightly harder, since we don't have a nice theoretical result (yet).  But we do have the probabilities of each event, courtesy of the 400-by-400 tables above.  We tabulate the results and divide by 160,000 to get probabilities for the individual die rolls, then take the appropriate cumulative sums:
 

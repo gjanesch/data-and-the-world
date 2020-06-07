@@ -134,7 +134,6 @@ Replicating the initial plot is pretty quick:
 > ggplot(durant_ft, aes(x=1:nrow(durant_ft), y=streak)) + geom_bar(stat="identity")
 {{< / highlight >}}
 
-First plotplot1.pn
 
 ![First plot]({{< resource url="plot1.png" >}})
 
@@ -153,6 +152,6 @@ Recreating one of the later ones requires additional work, but `ggplot2` has all
 >              hjust="right", vjust="top")
 {{< / highlight >}}
 
-![Second plot](plot2.png) 
+![Second plot]({{< resource url="plot2.png" >}}) 
 
 Full code for this post is available [here](streaks.R).
