@@ -1,8 +1,10 @@
-baseURL = "http://example.org/"
+baseURL = "https://data-and-the-world.onrender.com/"
 languageCode = "en-us"
 title = "Data & The World"
 theme = "mainroad"
-paginate = "10"
+paginate = 10
+canonifyURLS = true
+cleanDestinationDir = true
 
 # currently not in use
 [Author]

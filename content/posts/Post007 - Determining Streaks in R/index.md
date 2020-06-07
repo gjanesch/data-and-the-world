@@ -134,7 +134,9 @@ Replicating the initial plot is pretty quick:
 > ggplot(durant_ft, aes(x=1:nrow(durant_ft), y=streak)) + geom_bar(stat="identity")
 {{< / highlight >}}
 
-![First plot](plot1.png)
+First plotplot1.png
+
+{{< figure src="plot1.png" title="First plot" >}}
 
 Recreating one of the later ones requires additional work, but `ggplot2` has all of the necessary functionality on its own, so we don't need to bring in anything to extend it, it's just lengthy.  We also make the slight tweak to the `streak` variable so that the miss streaks go down under the x=0 axis.
 

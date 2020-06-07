@@ -20,8 +20,10 @@ ggplot(durant_ft, aes(x=1:nrow(durant_ft), y=streak)) + geom_bar(stat="identity"
 durant_ft2 <- durant_ft %>% mutate(streak = streak * ifelse(trials == "make", 1, -1))
 caption <- paste(c("Kevin Durant", "FT"), collapse = "\n")
 ggplot(durant_ft2, aes(x=1:nrow(durant_ft2), y=streak)) +
-    geom_bar(aes(fill=trials), stat="identity") + theme_void() +
-    geom_hline(yintercept = 0) + geom_vline(xintercept = 0) +
+    geom_bar(aes(fill=trials), stat="identity") +
+    theme_void() +
+    geom_hline(yintercept = 0) +
+    geom_vline(xintercept = 0) +
     scale_fill_manual(values=c("make"="darkgreen", "miss"="red"), guide=FALSE) +
     annotate(geom="text", label=caption, x=nrow(durant_ft2), y=max(durant_ft2$streak),
              hjust="right", vjust="top")
