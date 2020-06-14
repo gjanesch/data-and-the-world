@@ -15,7 +15,7 @@ First broadcast in 1988, *Mystery Science Theater 3000* is a television show who
 
 <!--more-->
 
-The ratings were all pulled from IMDB -- a Python package called [IMDbPY](https://imdbpy.readthedocs.io/en/latest/index.html) was used for the episodes, while the films' information was collected manually since there was no neat way to get their IDs.  There were a reasonable number of ratings on both sides, with episodes having typically several hundred ratings and the films having at least that many.  *MST3K* is often credited with bringing some of these films to life again, which is likely part of the reason.  The data that I collected is [here](MST3k.csv).
+The ratings were all pulled from IMDB -- a Python package called [IMDbPY](https://imdbpy.readthedocs.io/en/latest/index.html) was used for the episodes, while the films' information was collected manually since there was no neat way to get their IDs.  There were a reasonable number of ratings on both sides, with episodes having typically several hundred ratings and the films having at least that many.  *MST3K* is often credited with bringing some of these films to life again, which is likely part of the reason.  The data that I collected is [here]({{ resource url="MST3k.csv" >}}).
 
 A couple notes:
 

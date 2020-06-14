@@ -154,4 +154,4 @@ Recreating one of the later ones requires additional work, but `ggplot2` has all
 
 ![Second plot]({{< resource url="plot2.png" >}}) 
 
-Full code for this post is available [here](streaks.R).
+Full code for this post is available [here]({{< resource url="streaks.R" >}}).

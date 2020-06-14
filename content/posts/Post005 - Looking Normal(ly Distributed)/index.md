@@ -88,7 +88,7 @@ It looks like the smoothing line goes over \\(p=0.05\\) somewhere around \\(\lam
 
 ### Final Notes
 
-The code used to generate these simulations is [here](code.R).
+The code used to generate these simulations is [here]({{< resource url="code.R" >}}).
 
 I don't know how common it is to have distributions with parameter values at these extremes in real-life situations.  Maybe the Poisson distribution, if you end up with a large enough time scale for your experiment that you get a lot of events in there, but I don't really know.
 
