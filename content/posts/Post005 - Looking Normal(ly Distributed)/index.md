@@ -2,8 +2,8 @@
 title: Looking Normal(ly Distributed)
 date: 2020-05-13
 linktitle: Looking Normal(ly Distributed)
-categories: ["Experimentation"]
-tags: ["R", "Simulation"]
+categories: ["Statistics"]
+tags: ["R", "Simulation", "Visualization"]
 draft: false
 description: Examining how normally-distributed other distributions can look.
 mathjax: true

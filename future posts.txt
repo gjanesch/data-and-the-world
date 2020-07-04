@@ -83,6 +83,7 @@ FUTURE POSTS & PROJECTS
  - Analyze microloan site data
   * Regression or other statistical analyses would be good for demonstrating my abilities, and is appropriate considering I was in 503 recently...
   * Either Kiva or LendingClub had access to good data, it seemed.
+  * May be good for demonstrating data cleaning/exploration capability.
   
  - Example of lack of fit test, based on chapter 8 in ST503 textbook.
   * Something like the cars dataset would be a good set to demonstrate on.
@@ -128,8 +129,6 @@ FUTURE POSTS & PROJECTS
   * Need that psyarxiv scraper...
   * Also a lot of NLP...
   * Needs cluster visualization method(s)
-  
- - Something on Yule processes
  
  - Something about the fractured nature of Linux (or general OSS) contributions
   * Would need data from Github or such about contribution history
@@ -162,6 +161,12 @@ FUTURE POSTS & PROJECTS
  - Confidence vs credible intervals, and when they're the same theoretically
   * Emphasize that they aren't interchangable
 
+ - Appling a Yule (preferential treatment) process to Reddit comments
+  * Should probably target one of the bigger subreddits (e.g., AskReddit)
+  * Need to know what information I can get from the API and what would need to be scraped.
+  
+ - MAPE vs correlation of stocks
+  * Train a model, probably an LSTM ona stock, test other stocks with varying correlations to it, and calculate the MAPE for each.
 
 
  

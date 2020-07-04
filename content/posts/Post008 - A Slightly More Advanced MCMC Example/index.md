@@ -3,7 +3,7 @@ title: A Slightly More Advanced MCMC Example
 date: 2020-06-14
 linktitle: A Slightly More Advanced MCMC Example
 categories: ["Code"]
-tags: ["R", "Bayesian"]
+tags: ["Bayesian", "Machine Learning", "R"]
 draft: false
 description: An example of Metropolis-Hastings MCMC, meant to be slightly more elaborate that others.
 mathjax: true
