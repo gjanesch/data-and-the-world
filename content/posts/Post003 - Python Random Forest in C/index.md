@@ -2,7 +2,7 @@
 title: Python Random Forest in C
 date: 2020-03-15
 linktitle: Python Random Forest in C
-categories: ["Code", "Python"]
+categories: ["Code"]
 tags: ["Python", "Machine Learning", "C"]
 draft: false
 description: An attempt at making C code that can use the model in a random forest regression from Python to make predictions.

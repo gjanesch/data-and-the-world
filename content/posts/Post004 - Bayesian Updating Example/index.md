@@ -3,7 +3,7 @@ title: An (Animated) Example of Bayesian Updating
 date: 2020-04-12
 linktitle: An (Animated) Example of Bayesian Updating
 categories: ["Analysis"]
-tags: ["Analysis", "Bayesian", "R"]
+tags: ["Bayesian", "R", "Visualization"]
 draft: false
 description: Example and visualization of Bayesian updating.
 mathjax: true
