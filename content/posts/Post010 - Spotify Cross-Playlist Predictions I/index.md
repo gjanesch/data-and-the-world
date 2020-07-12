@@ -87,7 +87,7 @@ But there's a pretty distinct separation between the two playlists when plotted:
 
 Since the playlists seem more separated along the first component, I'd guess that the DragonForce tracks are all higher valence (which roughly corresponds to positiveness, according to the API docs) and energy (it's power metal, after all) than the Bill Evans tracks.  Among the recommendations, the top-leftmost is "Avant La Tempête," which is pretty sedate so it doesn't seem that far off.  The other recommendations include the acoustic track "Seasons" and a cover of Celine Dion's "My Heart Will Go On."
 
-Finally, what I hope is a more intermediate one: a playlist of jazz musician John Coltrane for reference and a playlist of Billy Joel as the target. The two principal compoents are pretty different across most characteristics of the Coltrane playlist:
+Finally, what I hope is a more intermediate one: [a playlist of jazz musician John Coltrane](https://open.spotify.com/playlist/37i9dQZF1DWVx3vT1QCKCV) for reference and [a playlist of Billy Joel](https://open.spotify.com/playlist/37i9dQZF1DWY7QTKRRDgA5) as the target. The two principal compoents are pretty different across most characteristics of the Coltrane playlist:
 
 ![Two principal components of the Coltrane playlist.]({{< resource url="model3_PC.png" >}})
 
