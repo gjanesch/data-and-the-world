@@ -5,7 +5,7 @@ linktitle: Spotify Cross-Playlist Predictions, Part 1
 categories: ["Projects"]
 tags: ["Machine Learning", "R","Visualization"]
 draft: false
-description: The first part of a project that tries to make predictions between two Spotify playlists and display the results in an app
+description: The first part of a project that tries to make predictions between two Spotify playlists and display the results in an app.
 mathjax: true
 slug: spotify-cross-playlist-predictions-one
 ---
