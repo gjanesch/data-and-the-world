@@ -10,19 +10,7 @@ mathjax: true
 slug: matrix-to-latex
 ---
 
-notes:
-- new to julia
-- not including math environment controls in the LaTeX code
-- matrix used: [3 4 5;6 7 9; 4 5 122]
-- np.apply_along_axis doesn't work reliably (see https://github.com/numpy/numpy/issues/8352)
-- Python has tricky print things:
->>> print(array_to_LaTeX(A))
-\begin{bmatrix} 3 & 4 & 5 \\ 6 & 7 & 9 \\ 4 & 5 & 122 \end{bmatrix}
->>> array_to_LaTeX(A)
-'\\begin{bmatrix} 3 & 4 & 5 \\\\ 6 & 7 & 9 \\\\ 4 & 5 & 122 \\end{bmatrix}'
-
-
-I recently had to go through some matrix operations in R and then write up the results in LaTeX.  Formatting the R output to get it into a form for LaTeX isn't particularly hard, but it's tedious and it's regular enough that it seemed like it would be easy to code it up.  So I decided to try it for R, Python, and Julia.
+I recently had to go through some matrix operations in R and then write up the results in LaTeX.  Formatting the R output to get it into a form for LaTeX isn't particularly hard, but it's tedious and it has a regular structure, so it seemed like it would be easy to code it up.  So I decided to try it for R, Python, and Julia.
 
 <!--more-->
 
@@ -71,7 +59,7 @@ Trying to print the result of this function directly doesn't quite give the desi
 [1] "\\begin{bmatrix} 3 & 4 & 5 \\\\ 6 & 7 & 9 \\\\ 4 & 5 & 122 \\end{bmatrix}"
 {{< / highlight >}}
 
-But it turns out `cat()` will print things out with the escaping backslashes suppressed, so we just run the output through that:
+But it turns out `cat()` will print things out with the escaped backslashes, so we just run the output through that:
 
 {{< highlight r >}}
 > cat(array_to_LaTeX(A))
