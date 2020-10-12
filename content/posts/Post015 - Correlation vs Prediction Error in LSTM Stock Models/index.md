@@ -146,7 +146,7 @@ np.quantile(correlations, [0, 0.25, 0.5, 0.75, 1])
 
 The correlations do vary a decent amount, although I would describe the bulk of stocks as just being mildly correlated.  The fact that they're all positive probably reflects the general tendency for the market to go up over time, especially in the time window we're considering here.
 
-Finally, create the arrays to hold the training data and the other stock data to predict on.  
+Finally, create the arrays to hold the training data and the other stock data to predict on.
 
 {{< highlight python >}}
 def make_input_output_data(data_series, history_length, future_length):
@@ -286,7 +286,7 @@ stats.f_oneway(*groups)
 
 ![Image description.]({{< resource url="scaled_boxplot.png" >}})
 
-A p-value of around 0.51 is much larger than any typical significance level, so it looks like there's no statistically discernable differences between the above groups, despite the boxplot suggesting otherwise.
+A p-value of around 0.51 is much larger than any typical significance level, so it looks like there's no statistically discernible differences between the above groups, despite the boxplot suggesting otherwise.
 
 But this is all on the scaled data.  What if it's unscaled?
 
@@ -309,9 +309,9 @@ stats.f_oneway(*unscaled_groups)
 
 ![Image description.]({{< resource url="unscaled_boxplot.png" >}})
 
-The ANOVA is a lot more suggestive this time around, though.  With p=0.047, this would be statisitically signficant for some common significance levels (including 0.05), though not all (it's still above 0.01, for instance).
+The ANOVA is a lot more suggestive this time around, though.  With p=0.047, this would be statistically significant for some common significance levels (including 0.05), though not all (it's still above 0.01, for instance).
 
 
 ### Conclusions
 
-With this basic LSTM model, there *might* be some relationship between prediction error and stock correlation.  Given how the MAPE values for the unscaled predictions on the non-reference stocks looked, there's clearly work to be done on creating a more accurate model.  Running this code a number of times would also probably be necessary to get a strong picture of the truth, given the random initialization that comes with neural networks.
+With this basic LSTM model, there *might* be some relationship between prediction error and stock correlation.  Given how the MAPE values for the unscaled predictions on the non-reference stocks looked, there's clearly work to be done on creating a more accurate model.  Running this code a number of times would also be necessary to get a strong picture of the truth, given the random initialization that comes with neural networks.
