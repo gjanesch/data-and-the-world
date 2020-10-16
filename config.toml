@@ -25,3 +25,8 @@ cleanDestinationDir = true
 [Params.widgets.social]
   linkedin="gregjanesch"
   github="gjanesch"
+
+[[Params.widgets.social.custom]]
+  title = "RSS Feed"
+  url = "index.xml"
+  icon = "rss.svg"
