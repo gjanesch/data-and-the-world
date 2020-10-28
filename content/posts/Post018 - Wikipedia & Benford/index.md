@@ -14,6 +14,8 @@ slug: wikipedia-benford
 
 Since I recently wrote about [unpacking the pages from a dump of the English Wikipedia](/posts/read-wikipedia-dump), I thought would see if Benford's law manifested in the text of Wikipedia, as it seems like it fits the idea of a "large, heterogenous collection of numbers" quite well.
 
+The notebook containing the full code is [here](https://github.com/gjanesch/Wikipedia-Experiments/blob/main/Benford's%20Law%20Test/Get%20Numbers%20from%20English%20Wikipedia.ipynb).
+
 <!--more-->
 
 ### Description of Benford's Law
