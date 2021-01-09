@@ -102,6 +102,6 @@ Setting it up actually would have been pretty quick had everything been correct 
 
 ## Conclusion
 
-The app is viewable [here](http://3.85.216.75:3838/).  If it crashes (indicated by the screen going greyer), just reload the page to get it working.  It's not a particularly fast-executing app, especially since it's on AWS free tier resources, but it's functional and it's viewable, which was the entire goal of the project.
+The app is viewable [here](http://3.231.4.28:3838/).  If it crashes (indicated by the screen going greyer), just reload the page to get it working.  It's not a particularly fast-executing app, especially since it's on AWS free tier resources, but it's functional and it's viewable, which was the entire goal of the project.
 
 On the whole, I enjoyed this.  It was a good exercise in fitting several different technologies together and releasing a practical(ish), interactive product.

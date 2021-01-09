@@ -162,6 +162,7 @@ Regardless, evaluating the model is necessary.  Spark seems a little limited in 
 from pyspark.ml.evaluation import BinaryClassificationEvaluator
 evaluator = BinaryClassificationEvaluator(labelCol="is_red")
 evaluator.evaluate(predictions)
+## 0.9917049465379387
 {{< / highlight >}}
 
 Note that the logistic regression model will actually return three columns of prediction data:
