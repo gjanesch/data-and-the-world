@@ -13,4 +13,4 @@ An RShiny app designed to acquire information on the contents of two playlists, 
 
 Writeups: [Part 1](https://data-and-the-world.onrender.com/posts/spotify-cross-playlist-predictions-one/), [Part 2](https://data-and-the-world.onrender.com/posts/spotify-cross-playlist-predictions-two/)\
 [Code on GitHub](https://github.com/gjanesch/Spotify-Cross-Playlist-Prediction-App)\
-[Link to App](http://3.85.216.75:3838/)
+[Link to App](http://3.231.4.28:3838/)
