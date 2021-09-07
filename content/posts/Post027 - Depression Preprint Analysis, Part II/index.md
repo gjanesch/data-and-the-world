@@ -173,7 +173,7 @@ It seems like **Topic 4** is a bit of a mixed bag.  The two most common terms ar
 
 **Topic 9** is pretty clearly about COVID-19.
 
-**Topic 10** might be kind of a mixed bag, given that it seems to have some of the lowest counts for its top terms.  The actual terms themselves suggest a focus on identity, and culture.  Some of the preprint titles like "*Loss and assimilation Lived experiences of Brexit for British citizens living in Luxembourg*" suggest this topic could describe lifestyles and life experience in general.
+**Topic 10** might be kind of a mixed bag, given that it seems to have some of the lowest counts for its top terms.  The actual terms themselves suggest a focus on identity, and culture.  Some of the preprint titles like "*Loss and assimilation: Lived experiences of Brexit for British citizens living in Luxembourg*" suggest this topic could describe lifestyles and life experience in general.
 
 This topic does have a notable outlier, though.  One preprint called "*Psilocybin for Depression The ACE Model Manual*" doesn't match the above description very well, but the way it's written makes it clear that it's talking directly to the reader, and inspection of the term frequency matrix shows that it accounts for about one-fourth of the uses of the word "you" in the entire corpus.  Some other high-scoring preprints in this category seem to include anecdotes from people, which frequently use "you" or "your" in their transcriptions, which may be the reason for this.
 

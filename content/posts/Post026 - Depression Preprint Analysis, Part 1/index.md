@@ -17,7 +17,7 @@ This is the first post in a series focused on trying to analyze the contents of 
 ## OSF
 The [OSF](https://osf.io/) (Open Science Foundation) is project by the Center for Open Science, dedicated to aggregating the results of multiple arXiv-like preprint services and making them searchable as a group.  As a result, it makes for a potentially interesting jumping off point to get preprints from a number of different sources.
 
-The interface fo the search is pretty standard, and the site returns abstracts and other basic information on the preprints themselves.
+The interface for the search is pretty standard, and the site returns abstracts and other basic information on the preprints themselves, along with links to the preprints on their respective sites.
 
 ![OSF preprint search screenshot.]({{< resource url="osf_listings.png" >}})
 
