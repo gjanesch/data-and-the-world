@@ -111,7 +111,7 @@ In other words, similar to how you can supply a dataframe's column names to many
 
 ![Image description.]({{< resource url="irisplot2.png" >}})
 
-An example in the documenation uses `cor()`, which also seems like a good use case.
+An example in the documentation uses `cor()`, which also seems like a good use case.
 
 
 ## The Assignment Pipe (%<>%)
